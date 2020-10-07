@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 
 public class Login extends JFrame implements ActionListener {
     JLabel userNameLabel, pwdLabel;
@@ -34,6 +35,7 @@ public class Login extends JFrame implements ActionListener {
         loginBtn.setBackground(Color.BLACK);
         loginBtn.setForeground(Color.WHITE);
         loginBtn.setBounds(60, 300, 110,30);
+        loginBtn.addActionListener(this);
         add(loginBtn);
 
         cancelBtn = new JButton("Cancel");
@@ -58,7 +60,31 @@ public class Login extends JFrame implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
-        this.setVisible(false);
+    public void actionPerformed(ActionEvent ae) {
+        if(ae.getSource() == loginBtn){
+            String usrNam = userNameTxt.getText();
+            String password = pwdTxt.getText();
+            conn c = new conn();
+            String str = "select * from login where username = '"+usrNam+"' and password = '"+password+"'";
+
+            try{
+                ResultSet rs= c.st.executeQuery(str);
+                if (rs.next()){
+                    JOptionPane.showMessageDialog(null, "Logged in successfully");
+                    new Dashboard().setVisible(true);
+                    this.setVisible(false);
+                }
+                else{
+                    JOptionPane.showMessageDialog(null, "Incorrect username and password");
+                    this.setVisible(false);
+                }
+            }catch (Exception e){
+                System.out.println("galat code hain");
+            }
+
+        }else if (ae.getSource() == cancelBtn){
+            System.exit(0);
+        }
+
     }
 }
