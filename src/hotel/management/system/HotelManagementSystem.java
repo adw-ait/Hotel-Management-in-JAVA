@@ -26,7 +26,9 @@ public class HotelManagementSystem extends JFrame implements ActionListener {
         next.setBounds(1150, 450, 150, 30);
         next.addActionListener(this);
         l1.add(next);
-        
+
+        setSize(1366, 565);
+        setLocationRelativeTo(null);
         setLayout(null);
         setVisible(true);
     }

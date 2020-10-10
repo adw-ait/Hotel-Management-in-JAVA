@@ -9,3 +9,7 @@ _
 /.idea/libraries/mysql_connector_java_8_0_21.xml,0\0\00ed360157a17ab06a6c4d884b671b71cdfa8514
 V
 &src/hotel/management/system/Login.java,b\e\be70828b5022428c6b0de70a6704ccb20c5f95a9
+Z
+*src/hotel/management/system/Dashboard.java,d\c\dcc9d2324e8aa23d37769e927924826c9814e56f
+\
+,src/hotel/management/system/AddEmployee.java,d\7\d7bf0927b552bb32280c14caf609869b06c4c0f3
