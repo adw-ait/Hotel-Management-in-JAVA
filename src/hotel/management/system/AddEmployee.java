@@ -2,8 +2,11 @@ package hotel.management.system;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 
-public class AddEmployee extends JFrame {
+public class AddEmployee extends JFrame implements ActionListener {
 
     JTextField empNameTxt, empAgeTxt, empJobTxt,empSalaryTxt,empPhoneTxt,empAadharTxt, empEmailTxt;
     JRadioButton empMale, empFemale;
@@ -108,13 +111,14 @@ public class AddEmployee extends JFrame {
         empEmailTxt.setBounds(100, 260, 130, 20);
         add(empEmailTxt);
 //
-        addEmployeeBtn = new JButton("ADD");
-        addEmployeeBtn.setBounds(10, 300, 100,30);
+        addEmployeeBtn = new JButton("ADD EMPLOYEE");
+        addEmployeeBtn.setBounds(100, 300, 130,30);
         add(addEmployeeBtn);
+        addEmployeeBtn.addActionListener(this);
 
-        cancelBtn = new JButton("CANCEL");
-        cancelBtn.setBounds(120, 300, 100,30);
-        add(cancelBtn);
+//        cancelBtn = new JButton("CANCEL");
+//        cancelBtn.setBounds(120, 300, 100,30);
+//        add(cancelBtn);
 
 
 
@@ -126,15 +130,48 @@ public class AddEmployee extends JFrame {
         employeeImgLabel.setBounds(250, 10, imageWidth, imageHeight);
         add(employeeImgLabel);
 
-
+//        setUndecorated(true);
+        setResizable(false);
+        setTitle("ADD EMPLOYEE");
         setLayout(null);
         getContentPane().setBackground(Color.WHITE);
-        setSize(400,400);
+        setSize(800 ,400);
         setLocationRelativeTo(null);
         setVisible(true);
     }
 
     public static void main(String[] args) {
         new AddEmployee();
+    }
+
+//    @Override
+    public void actionPerformed(ActionEvent ae) {
+        String name = empNameTxt.getText();
+        String age = empAgeTxt.getText();
+        String salary = empSalaryTxt.getText();
+        String phone = empPhoneTxt.getText();
+        String aadhar = empAadharTxt.getText();
+        String email = empEmailTxt.getText();
+        String gender = null;
+
+        //getSelection
+        if (empMale.isSelected()){
+            gender = empMale.getText();
+        }else if (empFemale.isSelected()){
+            gender = empFemale.getText();
+        }
+
+        String jobSelected = (String) jobCombo.getSelectedItem();
+
+        conn c = new conn();
+        String str = "insert into employee values('"+name+"','"+age+"','"+gender+"','"+jobSelected+"','"+salary+"','"+phone+"','"+aadhar+"','"+email+"')";
+        try{
+            c.st.executeUpdate(str);
+            JOptionPane.showMessageDialog(null, "Employee added");
+            this.setVisible(false);
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
     }
 }
