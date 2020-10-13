@@ -13,3 +13,7 @@ Z
 *src/hotel/management/system/Dashboard.java,d\c\dcc9d2324e8aa23d37769e927924826c9814e56f
 \
 ,src/hotel/management/system/AddEmployee.java,d\7\d7bf0927b552bb32280c14caf609869b06c4c0f3
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Y
+)src/hotel/management/system/AddRooms.java,d\e\debd1e4f8d7e68890092b21b4c67eaf700ecaaac
