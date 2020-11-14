@@ -1,0 +1,26 @@
+
+K
+java:S3740E"/Provide the parametrized type for this generic.(â¸¸A8é›³‡Ò.
+L
+java:S3740"/Provide the parametrized type for this generic.(ö²±×8«ö›‡Ò.
+U
+java:S11970"8Move the array designator from the variable to the type.(ÿğÀú8¼ï¤‡Ò.
+l	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’û8üš‡Ò.
+K
+java:S1481".Remove this unused "blackline" local variable.(ÇïÔş8…Ğ¹‡Ò.
+L
+java:S37401"/Provide the parametrized type for this generic.(˜‹ÙŒ8¼ï¤‡Ò.
+]	java:S110	"<This class has 6 parents which is greater than 5 authorized.(ËˆÂ¤ûÿÿÿÿ8ÿùÖÑ.
+L
+java:S3740"/Provide the parametrized type for this generic.(™Áâ­8¢ ‡Ò.
+T
+java:S1197%"8Move the array designator from the variable to the type.(’û8üš‡Ò.
+L
+java:S3740"/Provide the parametrized type for this generic.(¾×éÃ8ÌĞ›‡Ò.
+Q
+java:S3740&"/Provide the parametrized type for this generic.(®ÅÏ½úÿÿÿÿ8´œŸ‡Ò.
+Z	java:S106v"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8éÛ¶Ò.
+J
+java:S1659N"(Declare "imageWidth" on a separate line.(éµÁÄùÿÿÿÿ8¹±©ŒÒ.
+Z
+java:S1197D"8Move the array designator from the variable to the type.(æÊ÷Çøÿÿÿÿ8é›³‡Ò.

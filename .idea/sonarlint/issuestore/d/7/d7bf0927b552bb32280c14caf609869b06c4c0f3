@@ -1,0 +1,33 @@
+
+L
+java:S3740F"/Provide the parametrized type for this generic.(›Óß8ù€åšÑ.
+K
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8Ëûİ…Ò.
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Ëûİ…Ò.
+I
+java:S1659"'Declare "empAgeTxt" on a separate line.(Ê†÷çüÿÿÿÿ8×á¸Ğ.
+I
+java:S1659"'Declare "empJobTxt" on a separate line.(Ê†÷çüÿÿÿÿ8–İµ£Ğ.
+K
+java:S1659")Declare "empPhoneTxt" on a separate line.(Ê†÷çüÿÿÿÿ8˜Î¸Ğ.
+L
+java:S1659"*Declare "empAadharTxt" on a separate line.(Ê†÷çüÿÿÿÿ8€©İ¸Ğ.
+L
+java:S1659"*Declare "empSalaryTxt" on a separate line.(Ê†÷çüÿÿÿÿ8ßåß¸Ğ.
+J
+java:S1659}"(Declare "imageWidth" on a separate line.(È¢¬ÿÿÿÿÿ8«¢õ—Ñ.
+I
+java:S1659"'Declare "empFemale" on a separate line.(±³¶ÿıÿÿÿÿ8¼—ë¸Ğ.
+X	java:S125w"<This block of commented-out lines of code should be removed.(ø÷‘¬8ã€‡†Ò.
+Q
+java:S3740"/Provide the parametrized type for this generic.(øñÓäÿÿÿÿÿ8”ëŒ¹Ğ.
+X	java:S125w"<This block of commented-out lines of code should be removed.(ø÷‘¬8ã€‡†Ò.
+^	java:S125…"<This block of commented-out lines of code should be removed.(ØÍÈãÿÿÿÿÿ8‹Ã††Ò.
+D
+java:S1659"'Declare "cancelBtn" on a separate line.(£±šÒ8îÈü¹Ğ.
+X	java:S125"<This block of commented-out lines of code should be removed.(«€ğ•8º„¿šÑ.
+X	java:S110	"<This class has 6 parents which is greater than 5 authorized.(ûş³„8Ëûİ…Ò.
+U
+java:S1197E"8Move the array designator from the variable to the type.(³Şş®8ù€åšÑ.
+K
+java:S1659")Declare "empEmailTxt" on a separate line.(Ê†÷çüÿÿÿÿ8ÌÊ¸Ğ.

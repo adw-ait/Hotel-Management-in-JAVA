@@ -17,3 +17,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 Y
 )src/hotel/management/system/AddRooms.java,d\e\debd1e4f8d7e68890092b21b4c67eaf700ecaaac
+Z
+*src/hotel/management/system/Reception.java,a\4\a44a8339f3a7b74cf3b7ba719a91205487ace011
+]
+-src/hotel/management/system/EmployeeInfo.java,d\4\d4c1a8ea9ec7a43a85cb5c504666cd1f184e543b

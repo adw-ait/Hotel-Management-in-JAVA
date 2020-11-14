@@ -1,0 +1,17 @@
+
+]	java:S110"<This class has 6 parents which is greater than 5 authorized.(Äàä±şÿÿÿÿ8–œ¦šĞ.
+]	java:S125-"<This block of commented-out lines of code should be removed.(Õ­º´ûÿÿÿÿ8¦ÿ½ Ğ.
+X	java:S125J"<This block of commented-out lines of code should be removed.(ù¡Õñ8üƒ°“Ò.
+I
+java:S1659",Declare "addDriversItem" on a separate line.(ºÁö®8«ĞÁšĞ.
+G
+java:S1659"*Declare "addRoomsItem" on a separate line.(ºÁö®8²×ÂšĞ.
+K
+java:S2387"."width" is the name of a field in "Component".(şÂƒÍ8÷„¤Ğ.
+J
+java:S1659"-Declare "addEmployeeItem" on a separate line.(ºÁö®8²×ÂšĞ.
+E
+java:S1659
+"#Declare "admin" on a separate line.(‰î¿„şÿÿÿÿ8Ğ„¬šĞ.
+L
+java:S2387"/"height" is the name of a field in "Component".(âÖÈè8÷„¤Ğ.

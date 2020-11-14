@@ -93,7 +93,7 @@ public class AddEmployee extends JFrame implements ActionListener {
 //
         //aadhar label
         JLabel empAadhar = new JLabel("AADHAR ID");
-        empAadhar.setBounds(10,225,50,10);
+        empAadhar.setBounds(10,225,70,10);
         add(empAadhar);
 
         //aadhar textfield
